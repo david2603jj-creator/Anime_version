@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anime Verse AI</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#0f172a,#1e293b,#312e81);
+    color:white;
+    min-height:100vh;
+}
+
+header{
+    text-align:center;
+    padding:30px;
+    background:rgba(0,0,0,0.3);
+}
+
+header h1{
+    font-size:3rem;
+    color:#00e5ff;
+}
+
+header p{
+    margin-top:10px;
+    color:#ddd;
+}
+
+.hero{
+    text-align:center;
+    padding:60px 20px;
+}
+
+.hero h2{
+    font-size:2rem;
+    margin-bottom:15px;
+}
+
+.hero p{
+    max-width:700px;
+    margin:auto;
+    color:#ccc;
+}
+
+.features{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+    padding:40px;
+}
+
+.card{
+    background:rgba(255,255,255,0.1);
+    width:300px;
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    background:rgba(255,255,255,0.15);
+}
+
+.card h3{
+    margin-bottom:10px;
+    color:#00e5ff;
+}
+
+.card p{
+    margin-bottom:20px;
+}
+
+button{
+    padding:12px 25px;
+    border:none;
+    border-radius:30px;
+    background:#00e5ff;
+    color:black;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:white;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    color:#bbb;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Anime Verse AI</h1>
+    <p>Read Manga, Watch Anime, and Create Your Own Anime Stories</p>
+</header>
+
+<section class="hero">
+    <h2>Welcome to Anime Verse AI</h2>
+    <p>
+        Explore manga, watch anime, and imagine your own anime creations.
+        Click any option below to begin your adventure.
+    </p>
+</section>
+
+<section class="features">
+
+    <div class="card">
+        <h3>📖 Read Manga</h3>
+        <p>Search for and read your favorite manga online.</p>
+        <button onclick="readManga()">Read Manga</button>
+    </div>
+
+    <div class="card">
+        <h3>🎬 Watch Anime</h3>
+        <p>Find and watch anime series and movies.</p>
+        <button onclick="watchAnime()">Watch Anime</button>
+    </div>
+
+    <div class="card">
+        <h3>🤖 Generate Anime</h3>
+        <p>Create and discover AI-generated anime ideas.</p>
+        <button onclick="generateAnime()">Generate Anime</button>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 Anime Verse AI. All Rights Reserved @David Agboola.</p>
+</footer>
+
+<script>
+function readManga() {
+    window.open("https://www.google.com/search?q=read+manga", "_blank");
+}
+
+function watchAnime() {
+    window.open("https://www.google.com/search?q=watch+anime", "_blank");
+}
+
+function generateAnime() {
+    window.open("https://www.google.com/search?q=AI+anime+generator", "_blank");
+}
+</script>
+
+</body>
+</html>
